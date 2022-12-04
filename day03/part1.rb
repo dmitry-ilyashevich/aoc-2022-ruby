@@ -2,4 +2,5 @@
 
 require_relative './day03'
 
-puts part1(lines)
+day03 = Day03RucksackReorganization.new(lines)
+puts day03.part1

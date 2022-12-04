@@ -2,4 +2,5 @@
 
 require_relative './day02'
 
-puts part1(lines)
+day02 = Day02RockPaperScissors.new(lines)
+puts day02.part1
